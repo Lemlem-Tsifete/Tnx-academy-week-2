@@ -41,29 +41,34 @@ The analysis focuses on:
 
 ## Repository Structure
 - The repository is structured as follows:
-├── data/ # Contains dataset files and schema
-│ ├── .github 
-│ ├── .vscode
-│ ├── telecom_data.sql # SQL schema for the PostgreSQL database 
-│ ├── notebooks/ # Jupyter notebooks for analysis
-  │ ├── exploratory_analysis.ipynb # EDA and insights generation 
-  │ ├── clustering_analysis.ipynb # k-means clustering and PCA 
-│ ├── src/ # Python scripts for processing and analysis
-   │ ├── data_extraction.py # Extract data from PostgreSQL 
-   │ ├── data_cleaning.py # Clean and preprocess raw data 
-   │ ├── user_overview_analysis.py # Perform user overview analysis 
-   │ ├── engagement_analysis.py # Analyze user engagement 
-   │ ├── experience_analysis.py # Evaluate user experience metrics 
-   │ ├── satisfaction_analysis.py # Compute satisfaction scores 
-│ ├── dashboards/ # Dashboard-related files 
-   │ ├── app.py # Streamlit dashboard script 
-│ ├── requirements.txt # Dependencies for the dashboard
-│ ├── tests/ # Unit tests for the project 
- │ ├── test_data_processing.py # Unit tests for data cleaning scripts 
- │ ├── test_analysis_methods.py # Tests for analysis scripts 
-│ ├── README.md # Project overview and instructions
-       └── requirements.txt # Project dependencies
+# Week 2 Challenge: Telecommunication Business Analysis
 
+This README provides an overview of the tasks in the Week 2 Challenge, including setup instructions, steps for each task, and final deliverables.
+
+---
+
+## Project Structure
+
+```plaintext
+.
+├── .vscode/
+│   └── settings.json                # Editor-specific settings
+├── .github/
+│   └── workflows/
+│       └── unittests.yml            # CI/CD workflow for unit tests
+├── .gitignore                       # Ignored files for version control
+├── requirements.txt                 # Python dependencies
+├── README.md                        # Project documentation
+├── src/                             # Source code
+│   ├── __init__.py                  # Initialize src module
+├── notebooks/                       # Jupyter notebooks
+│   ├── __init__.py                  # Initialize notebooks module
+│   └── README.md                    # Notebook-specific documentation
+├── tests/                           # Unit tests
+│   ├── __init__.py                  # Initialize tests module
+└── scripts/                         # Utility scripts
+    ├── __init__.py                  # Initialize scripts module
+    └── README.md                    # Documentation for scripts
 ## How to Run the Project
 ### Prerequisites
 1. Install Python 3.13.2 .
