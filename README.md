@@ -38,14 +38,20 @@ The analysis focuses on:
    - Deploy the dashboard on a public platform.
 
 ---
+## How to Run the Project
+### Prerequisites
+1. Install Python 3.13.2 .
+2. Set up a PostgreSQL database using the provided `telecom_data.sql` schema.
 
-## Repository Structure
-- The repository is structured as follows:
-# Week 2 Challenge: Telecommunication Business Analysis
-
-This README provides an overview of the tasks in the Week 2 Challenge, including setup instructions, steps for each task, and final deliverables.
-
----
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Lemlem-Tsifete/Tnx-academy-week-2.git
+   cd Tnx-academy-week-2
+2. Dashboard Deployment:
+Deploy the dashboard using Streamlit:
+    cd dashboards/
+    streamlit run app.py
 
 ## Project Structure
 
@@ -69,17 +75,3 @@ This README provides an overview of the tasks in the Week 2 Challenge, including
 └── scripts/                         # Utility scripts
     ├── __init__.py                  # Initialize scripts module
     └── README.md                    # Documentation for scripts
-## How to Run the Project
-### Prerequisites
-1. Install Python 3.13.2 .
-2. Set up a PostgreSQL database using the provided `telecom_data.sql` schema.
-
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Lemlem-Tsifete/Tnx-academy-week-2.git
-   cd Tnx-academy-week-2
-2. Dashboard Deployment:
-Deploy the dashboard using Streamlit:
-    cd dashboards/
-    streamlit run app.py
